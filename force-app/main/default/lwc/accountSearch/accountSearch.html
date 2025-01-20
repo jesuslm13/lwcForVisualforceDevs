@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : sr.Oh
+  @group             : 
+  @last modified on  : 01-20-2025
+  @last modified by  : sr.Oh
+-->
+<template>
+    <lightning-card>
+        <lightning-input
+            type="number"
+            label="Number of Employees"
+            value={numberOfEmployees}
+            onchange={handleChange}>
+        </lightning-input>
+        <lightning-button
+            label="Reset"
+            onclick={reset}>
+        </lightning-button>
+    </lightning-card>
+  </template>
